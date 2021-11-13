@@ -1,0 +1,60 @@
+.side-bar-nav {
+    position: absolute;
+    width: 25vw;
+    height: 97vh;
+    background-color: rgba(42, 40, 42, 0.884);
+    margin: 11px 0px 0px 5px;
+    top: 0%;
+}
+
+
+.side-bar-nav .side-bar-items {
+    display: block;
+}
+
+.side-bar-items .main-heading .logoPic ul {
+    list-style: none;
+}
+
+.side-bar-items .main-heading .logoPic {
+    position: relative;
+    padding-left: 90px;
+    margin-top: 15px;
+    background-image: url("./buza_Logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+    left: 20%;
+    opacity: 60%;
+    border: none;
+    border-radius: 200%;
+}
+
+.side-bar-items ul {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 40px;
+}
+
+.side-bar-items ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14pt;
+}
+
+.side-bar-items ul a:hover {
+font-size: 16pt;
+}
+
+.side-bar-items ul li {
+    padding: 20px 20px;
+}
+
+.side-bar-items ul li:hover {
+    background-color: rgba(253, 0, 0, 0.404);
+    transition: 0.250s ease-in-out;
+    font-weight: bold;
+    border-right: solid 10px rgba(255, 255, 255, 0.281);
+}

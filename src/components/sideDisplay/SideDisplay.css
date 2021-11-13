@@ -1,0 +1,159 @@
+.sideBanner {
+    position: absolute;
+    width: 23.5vw;
+    height: 97vh;
+    left: 76%;
+    top: 1.6%;
+    background-color: rgb(26, 24, 26);
+    border-bottom: 10px rgba(255, 0, 0, 0.473) solid;
+    color: #fff;
+}
+
+h1 {
+    margin-left: 0px;
+    border-bottom: solid;
+    padding-left: 90px;
+}
+.personWrap {
+    position: absolute;
+    width: 21vw;
+    height: 40vh;
+    left: 5%;
+    top: 10%;
+    background-color: rgba(37, 37, 37, 0.712);
+}
+
+.personWrap .proPic-and-Name ul {
+    display: flex;
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.proPic-and-Name ul li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.proPic-and-Name .proPic {
+    width: 4vw;
+    height: 8vh;
+    background: white;
+    border-radius: 50px;
+    background-image: url(./FB_IMG_1581145695607.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.statusMessage {
+    margin: 10px 5px 0px 5px;
+    color: white;
+    border: 0.2px dotted rgba(128, 128, 128, 0.226);
+
+}
+
+.statusMessage p {
+    padding: 10px 8px;
+}
+
+.statusMessage .like {
+    margin-left: 60px;
+    height: 5vh;
+    width: 6vw;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background: rgba(218, 48, 48, 0.74);
+}
+
+.statusMessage .like:hover {
+background: rgba(42, 140, 206, 0.753);
+transition: 0.250s ease-in-out;
+}
+
+.statusMessage .comment {
+    margin-left: 5px;
+    height: 5vh;
+    width: 6vw;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background: rgba(252, 0, 0, 0.753);
+}
+
+.statusMessage .comment:hover {
+    background: rgba(9, 153, 236, 0.753);
+    transition: 0.250s ease-in-out;
+}
+
+.personWrap-Two {
+    position: absolute;
+    width: 21vw;
+    height: 40vh;
+    left: 5%;
+    top: 55%;
+    background-color: rgba(37, 37, 37, 0.712);
+}
+
+.personWrap-Two .proPic-and-Name-Two ul {
+    display: flex;
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.proPic-and-Name-Two ul li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.proPic-and-Name-Two .proPic-Two {
+    width: 4vw;
+    height: 8vh;
+    background: white;
+    border-radius: 50px;
+}
+
+.statusMessage-Two {
+    margin: 10px 5px 0px 5px;
+    color: white;
+    border: 0.2px dotted rgba(128, 128, 128, 0.226);
+
+}
+
+.statusMessage-Two p {
+    padding: 10px 8px;
+}
+
+.statusMessage-Two .like-two {
+    margin-left: 60px;
+    height: 5vh;
+    width: 6vw;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background: rgba(218, 48, 48, 0.74);
+}
+
+.statusMessage-Two .like-two:hover {
+    background: rgba(42, 140, 206, 0.753);
+    transition: 0.250s ease-in-out;
+    }
+
+.statusMessage-Two .comment-two {
+    margin-left: 5px;
+    height: 5vh;
+    width: 6vw;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background: rgba(252, 0, 0, 0.753);
+}
+
+.statusMessage-Two .comment-two:hover {
+    background: rgba(9, 153, 236, 0.753);
+    transition: 0.250s ease-in-out;
+}

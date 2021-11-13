@@ -1,0 +1,84 @@
+.displayBanner {
+        position: absolute;
+        width: 50vw;
+        height: 97vh;
+        left: 26%;
+        top: 1.6%;
+        background-color: rgba(42, 40, 42, 0.884);
+        border-bottom: 10px rgba(255, 0, 0, 0.473) solid;
+        border-top: 75px rgba(231, 135, 135, 0.233) solid;
+    }
+    
+    .displayBanner .searchBar {
+        position: absolute;
+        width: 22vw;
+        height: 6vh;
+        left: 35%;
+        top: 35%;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        border-bottom: solid 2px rgba(218, 48, 48, 0.74);
+        font-size: 16pt;
+        padding-left: 15px;
+        background-color: rgba(107, 104, 107, 0.39);
+        outline: none;
+    }
+    
+    .displayBanner .searchLabel {
+        position: absolute;
+        left: 17.2%;
+        top: 34.95%;
+        color: #fff;
+        font-size: 20pt;
+        border-bottom: rgba(199, 40, 40, 0.781) 2.5px solid;
+        padding: 0px 4px 0px 4px;
+        padding-bottom: 0px;
+    }
+
+    .displayBanner .search-bar-links {
+        position: absolute;
+        left: 18%;
+        top: 60%;
+        color: #fff;
+        font-size: 12pt;
+        padding: 0px 4px 0px 4px;
+        padding-bottom: 0px;
+    }
+
+    .displayBanner .search-bar-links ul li:hover {
+    border-bottom: rgba(199, 40, 40, 0.781) 2.5px solid;
+    }
+
+    .displayBanner .search-bar-links ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .displayBanner .search-bar-links ul li {
+        padding: 0px 20px;
+    }
+
+    .displayBanner .search-bar-links ul a {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .displayBanner .mailLink {
+        position: absolute;
+        left: 82%;
+        top: 2%;
+        text-decoration: none;
+        color: white;
+        font-size: 14pt;
+        border-bottom: rgba(199, 40, 40, 0.781) 2.5px solid;
+    }
+    
+    .displayBanner .mailLink:hover {
+        background-color: rgba(253, 253, 253, 0.027);
+        border: none;
+        border-radius: 20px;
+        padding: 5px 15px;
+        padding-bottom: 8px;
+    }

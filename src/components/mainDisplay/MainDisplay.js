@@ -5,6 +5,7 @@ export const MainDisplay = () => {
     return (
         <>
     <div className="displayBanner">
+    
     <a className="mailLink"href="#">Buza-mail</a>
         <label className="searchLabel">Search</label>
         <input className="searchBar" placeholder="buza something..."></input>

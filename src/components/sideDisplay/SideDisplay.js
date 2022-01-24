@@ -14,7 +14,7 @@ export const SideDisplay = () => {
                     </ul>
                 </div>
                 <div className="statusMessage">
-                    <p>Looking forward to 2021, it's the year I make my first R1 million :) Capelanet, Buza, Techyana, Nazo, Zux - Cape Yard Clan.</p>
+                    <p>Need to spend more time on my GOALS and IDEAS, Capelanet, Buza, Techyana, Nazo, Zux and Bhele Bank - Cape Yard Clan.</p>
                     <button className="like">like</button>
                     <button className="comment">comment</button>
                 </div>
@@ -28,7 +28,7 @@ export const SideDisplay = () => {
                     </ul>
                 </div>
                 <div className="statusMessage-Two">
-                    <p>...just got home and I'm feeling drained from the hiking trip we took, I did enjoy the scenery though - so tired ahhh :( :(</p>
+                    <p>...just got home and I feel so tired from today's out door activities. I will post visuals here on Buzanani later on</p>
                     <button className="like-two">like</button>
                     <button className="comment-two">comment</button>
                 </div>
